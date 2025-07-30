@@ -1,3 +1,5 @@
+
+ASSIGNMENT 1
 # Sentiment & Engagement Scoring Model
 
 ## Dataset
@@ -26,4 +28,35 @@ Example:
 
 ## Files
 - `sentiment_scoring.ipynb`
+
+ASSIGNMENT 2 
+
+# Personalized Blog Recommendation System
+
+## Methodology
+- Hybrid approach: Category filtering + score personalization
+- Personalization = closeness to user's historical sentiment & engagement time
+- Ensured diversity with max 3 posts per category
+
+## Evaluation
+- Simulated user click data
+- Metric: Precision@5
+- Avg Precision: 0.6
+
+## Hyperparameters
+- Normalization factor for time_diff: 1/300
+- Score = score_diff + normalized time_diff
+- Limit: max 3 posts per category
+
+## Files Included
+- recommendation_system.ipynb
+- REPORT.md
+
+
+
+
+
+
+
+
 
